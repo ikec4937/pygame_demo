@@ -8,7 +8,7 @@ class Player_Box:
     def __init__(self):
         self.x = 50
         self.y = 50
-        self.image = pygame.image.load(r"D:/Ikechukwu/Coding files/Python/New Super Movement bros/Finished Product/start-assets/player.png")
+        self.image = pygame.image.load("player.png")
         self.width = self.image.get_width()
         self.height = self.image.get_height()
         
